@@ -39,3 +39,7 @@ Languages Used:
  - Python
  - HTML & CSS
  - Flask Web Framework
+
+The application outputs a recommendation (like/dislike) for a given song based on user input of song features like acousticness, danceability, and more. The model predicts with accuracy based on trained data.
+
+We tested multiple machine learning models, including DecisionTreeClassifier, RandomForestClassifier, ExtraTreesClassifier, BaggingClassifier, AdaBoostClassifier, and LGBMClassifier, evaluating them based on accuracy score and ROC AUC score. Additionally, we visualized their performance using a confusion matrix. After comparing the results, we selected ExtraTreesClassifier as the best model for this application, achieving the highest scores across key performance metrics
